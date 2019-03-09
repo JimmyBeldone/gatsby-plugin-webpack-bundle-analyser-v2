@@ -26,13 +26,14 @@
         "gatsby": "^2.0.0"
     },
     "readme": "README.md",
+    "homepage": "https://github.com/JimmyBeldone/gatsby-plugin-webpack-bundle-analyser-v2",
     "repository": {
         "type": "git",
         "url": "https://github.com/JimmyBeldone/gatsby-plugin-webpack-bundle-analyser-v2.git"
     },
     "dependencies": {
         "@babel/runtime": "^7.0.0",
-        "webpack-bundle-analyzer": "^3.0.4"
+        "webpack-bundle-analyzer": "^3.1.0"
     },
     "devDependencies": {
         "@babel/cli": "^7.0.0",
