@@ -5,8 +5,8 @@
     <a href="https://travis-ci.com/JimmyBeldone/gatsby-plugin-webpack-bundle-analyser-v2">
         <img alt="travis build" src="https://travis-ci.com/JimmyBeldone/gatsby-plugin-webpack-bundle-analyser-v2.svg?branch=master">
     </a>
-    <a href="#badge">
-        <img alt="release number" src="https://badgen.net/github/release/JimmyBeldone/gatsby-plugin-webpack-bundle-analyser-v2/stable">
+    <a href="https://www.npmjs.com/package/gatsby-plugin-webpack-bundle-analyser-v2">
+        <img alt="npm version" src="https://badgen.net/npm/v/gatsby-plugin-webpack-bundle-analyser-v2">
     </a>
     <a href="#badge">
         <img alt="dependencies status" src="https://badgen.net/david/dep/JimmyBeldone/gatsby-plugin-webpack-bundle-analyser-v2">
@@ -54,9 +54,30 @@ module.exports = {
 
 ## Options
 
+This plugin is disable in `dev mode` by default, if you want to use it in `dev mode`,
+set `devMode: true` like this :
+
+```javascript
+// in gatsby-config.js
+
+module.exports = {
+  plugins: [
+    {
+      resolve: "gatsby-plugin-webpack-bundle-analyser-v2",
+      options: {
+        devMode: true,
+      },
+    },
+  ],
+}
+```
+
+Optionally you can disable the analyser, just add `disable: true` in `options : {}`
+
+
 ### Original plugin options
 
-You can add all [available options](https://github.com/webpack-contrib/webpack-bundle-analyzer#options-for-plugin) of [webpack-bundle-analyser](https://github.com/webpack-contrib/webpack-bundle-analyzer) original plugin.
+You can add all [available options](https://github.com/webpack-contrib/webpack-bundle-analyzer#options-for-plugin) of [webpack-bundle-analyser](https://github.com/webpack-contrib/webpack-bundle-analyzer) original plugin like this :
 
 ```javascript
 // in gatsby-config.js
@@ -67,29 +88,32 @@ module.exports = {
       resolve: "gatsby-plugin-webpack-bundle-analyser-v2",
       options: {
         analyzerMode: "server",
-        analyzerPort: "3001"
+        analyzerPort: "8888",
+        analyzerHost: "http://myhost.com",
+        defaultSizes: "gzip"
       },
     },
   ],
 }
 ```
 
-In this plugin, the only default option is :
+In this plugin, the default original options are :
 
 ```javascript
 {
-  analyzerMode: "static"
+  analyzerMode: 'server',
+  analyzerPort: 3001,
 }
 ```
 
-which generate a single html file with bundle report.
+which run a server on http://127.0.0.1:3001 with your bundle report.
 
-### Disable
+## Contributing
 
-Optionally you can disable the analyser like this :
+Contributions are welcome ! See [contributing guidelines](https://github.com/JimmyBeldone/gatsby-plugin-webpack-bundle-analyser-v2/blob/master/CONTRIBUTING.md)
 
-```javascript
-{
-  disable: true
-}
-```
+## License
+
+MIT
+
+Copyright (c) 2019 Jimmy Beldone
