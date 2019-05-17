@@ -1,75 +1,80 @@
 {
-    "name": "gatsby-plugin-webpack-bundle-analyser-v2",
-    "description": "Gatsby plugin with the latest version of [webpack-bundle-analyser](https://github.com/webpack-contrib/webpack-bundle-analyzer) to visualize size of output files with an interactive zoomable treemap.",
-    "version": "1.0.10",
-    "keywords": [
-        "gatsby",
-        "gatsby-plugin",
-        "gatsby-plugin-webpack-bundle-analyser-v2",
-        "webpack-bundle-analyser",
-        "webpack",
-        "analyser",
-        "bundle"
-    ],
-    "scripts": {
-        "commit": "git-cz",
-        "lint": "eslint src --fix",
-        "pretty": "prettier --write 'src/**/*.js'",
-        "clean": "rimraf ./gatsby-node.js",
-        "build": "babel src --out-dir .",
-        "prepare": "yarn clean && cross-env NODE_ENV=production yarn build",
-        "watch": "babel -w src --out-dir ."
-    },
-    "author": "Jimmy Beldone <dev.jimmy.beldone@gmail.com>",
-    "bugs": {
-        "url": "https://github.com/JimmyBeldone/gatsby-plugin-webpack-bundle-analyser-v2/issues"
-    },
-    "license": "MIT",
-    "main": "./index.js",
-    "peerDependencies": {
-        "gatsby": "^2.0.0"
-    },
-    "homepage": "https://github.com/JimmyBeldone/gatsby-plugin-webpack-bundle-analyser-v2",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/JimmyBeldone/gatsby-plugin-webpack-bundle-analyser-v2.git"
-    },
-    "dependencies": {
-        "@babel/runtime": "^7.4.4",
-        "webpack-bundle-analyzer": "^3.3.2"
-    },
-    "devDependencies": {
-        "@babel/cli": "^7.4.4",
-        "@babel/core": "^7.4.4",
-        "babel-eslint": "^10.0.1",
-        "babel-preset-gatsby-package": "^0.1.4",
-        "commitizen": "^3.1.1",
-        "cross-env": "^5.1.4",
-        "cz-conventional-changelog": "2.1.0",
-        "eslint": "^5.16.0",
-        "eslint-config-airbnb-base": "^13.1.0",
-        "eslint-config-prettier": "^4.3.0",
-        "eslint-plugin-import": "^2.17.2",
-        "eslint-plugin-prettier": "^3.1.0",
-        "husky": "^2.3.0",
-        "lint-staged": "^8.1.7",
-        "prettier": "^1.17.1"
-    },
-    "config": {
-        "commitizen": {
-            "path": "./node_modules/cz-conventional-changelog"
-        }
-    },
-    "husky": {
-        "hooks": {
-            "pre-commit": "lint-staged"
-        }
-    },
-    "lint-staged": {
-        "{src}/**/*.js": [
-            "eslint --fix",
-            "prettier --write",
-            "git add"
-        ]
+  "name": "gatsby-plugin-webpack-bundle-analyser-v2",
+  "description": "Gatsby plugin with the latest version of [webpack-bundle-analyser](https://github.com/webpack-contrib/webpack-bundle-analyzer) to visualize size of output files with an interactive zoomable treemap.",
+  "version": "1.0.10",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-plugin-webpack-bundle-analyser-v2",
+    "webpack-bundle-analyser",
+    "webpack",
+    "analyser",
+    "bundle"
+  ],
+  "scripts": {
+    "commit": "git-cz",
+    "lint": "eslint src --fix",
+    "pretty": "prettier --write 'src/**/*.js'",
+    "clean": "rimraf ./gatsby-node.js",
+    "build": "babel src --out-dir .",
+    "prepare": "yarn clean && cross-env NODE_ENV=production yarn build",
+    "watch": "babel -w src --out-dir .",
+    "semantic-release": "semantic-release"
+  },
+  "author": "Jimmy Beldone <dev.jimmy.beldone@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/JimmyBeldone/gatsby-plugin-webpack-bundle-analyser-v2/issues"
+  },
+  "license": "MIT",
+  "main": "./index.js",
+  "peerDependencies": {
+    "gatsby": "^2.0.0"
+  },
+  "homepage": "https://github.com/JimmyBeldone/gatsby-plugin-webpack-bundle-analyser-v2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JimmyBeldone/gatsby-plugin-webpack-bundle-analyser-v2.git"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.4.4",
+    "webpack-bundle-analyzer": "^3.3.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@semantic-release/changelog": "^3.0.2",
+    "@semantic-release/git": "^7.0.8",
+    "babel-eslint": "^10.0.1",
+    "babel-preset-gatsby-package": "^0.1.4",
+    "commitizen": "^3.1.1",
+    "cross-env": "^5.1.4",
+    "cz-conventional-changelog": "2.1.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-prettier": "^3.1.0",
+    "husky": "^2.3.0",
+    "lint-staged": "^8.1.7",
+    "prettier": "^1.17.1",
+    "rimraf": "^2.6.3",
+    "semantic-release": "^15.13.12"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "{src}/**/*.js": [
+      "eslint --fix",
+      "prettier --write",
+      "git add"
+    ]
+  }
 }
