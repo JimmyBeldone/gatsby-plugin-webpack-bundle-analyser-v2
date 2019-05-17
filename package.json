@@ -15,6 +15,7 @@
     "commit": "git-cz",
     "lint": "eslint src --fix",
     "pretty": "prettier --write 'src/**/*.js'",
+    "test": "echo 'No test specified'",
     "clean": "rimraf ./gatsby-node.js",
     "build": "babel src --out-dir .",
     "prepare": "yarn clean && cross-env NODE_ENV=production yarn build",
