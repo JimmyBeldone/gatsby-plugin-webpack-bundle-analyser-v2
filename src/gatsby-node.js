@@ -2,7 +2,7 @@ const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 
 exports.onCreateWebpackConfig = (
     { stage, actions },
-    { disable = false, ...options }
+    { disable = false, ...options },
 ) => {
     if (disable) return;
 
