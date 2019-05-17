@@ -15,8 +15,9 @@
         "commit": "git-cz",
         "lint": "eslint src --fix",
         "pretty": "prettier --write 'src/**/*.js'",
+        "clean": "rimraf ./gatsby-node.js",
         "build": "babel src --out-dir .",
-        "prepare": "cross-env NODE_ENV=production yarn build",
+        "prepare": "yarn clean && cross-env NODE_ENV=production yarn build",
         "watch": "babel -w src --out-dir ."
     },
     "author": "Jimmy Beldone <dev.jimmy.beldone@gmail.com>",
