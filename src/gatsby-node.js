@@ -2,13 +2,14 @@ const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
 
 exports.onCreateWebpackConfig = (
     { stage, actions },
-    { disable = false, ...options },
+    { disable = false, devMode = false, ...options },
 ) => {
     if (disable) return;
 
-    if (stage === 'build-javascript') {
+    if ((stage === 'develop' && devMode) || stage === 'build-javascript') {
         const defaultOptions = {
-            analyzerMode: 'static',
+            analyzerMode: 'server',
+            analyzerPort: 3001,
             ...options,
         };
 
