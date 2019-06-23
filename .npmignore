@@ -32,3 +32,9 @@ flow-typed
 coverage
 decls
 examples
+
+.travis.yml
+.eslintrc
+.eslintignore
+.prettierrc
+renovate.json
