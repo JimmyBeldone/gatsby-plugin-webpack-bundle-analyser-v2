@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/JimmyBeldone/gatsby-plugin-webpack-bundle-analyser-v2/compare/v1.1.0...v1.1.1) (2019-06-23)
+
+
+### Performance Improvements
+
+* update .npmignore ([daea784](https://github.com/JimmyBeldone/gatsby-plugin-webpack-bundle-analyser-v2/commit/daea784))
+
 # [1.1.0](https://github.com/JimmyBeldone/gatsby-plugin-webpack-bundle-analyser-v2/compare/v1.0.11...v1.1.0) (2019-05-17)
 
 
