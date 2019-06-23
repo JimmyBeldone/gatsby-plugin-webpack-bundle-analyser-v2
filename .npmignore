@@ -34,7 +34,13 @@ decls
 examples
 
 .travis.yml
+.releaserc
+
 .eslintrc
 .eslintignore
 .prettierrc
+
 renovate.json
+
+CONTRIBUTING.md
+CHANGELOG.md
