@@ -8,6 +8,9 @@
     <a href="https://www.npmjs.com/package/gatsby-plugin-webpack-bundle-analyser-v2">
         <img alt="npm version" src="https://badgen.net/npm/v/gatsby-plugin-webpack-bundle-analyser-v2">
     </a>
+    <a href="http://npm-stat.com/charts.html?package=gatsby-plugin-webpack-bundle-analyser-v2">
+        <img src="https://img.shields.io/npm/dm/gatsby-plugin-webpack-bundle-analyser-v2.svg" alt="NPM downloads">
+    </a>
     <a href="#badge">
         <img alt="dependencies status" src="https://badgen.net/david/dep/JimmyBeldone/gatsby-plugin-webpack-bundle-analyser-v2">
     </a>
