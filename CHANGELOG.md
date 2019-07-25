@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/JimmyBeldone/gatsby-plugin-webpack-bundle-analyser-v2/compare/v1.1.4...v1.1.5) (2019-07-25)
+
+
+### Bug Fixes
+
+* **deps:** roll back dependency snyk to ^1.199.2 ([ea7a3bd](https://github.com/JimmyBeldone/gatsby-plugin-webpack-bundle-analyser-v2/commit/ea7a3bd))
+
 ## [1.1.4](https://github.com/JimmyBeldone/gatsby-plugin-webpack-bundle-analyser-v2/compare/v1.1.3...v1.1.4) (2019-07-24)
 
 
