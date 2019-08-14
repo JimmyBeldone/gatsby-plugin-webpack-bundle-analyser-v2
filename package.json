@@ -62,7 +62,7 @@
     "husky": "3.0.3",
     "lint-staged": "9.2.1",
     "prettier": "1.18.2",
-    "rimraf": "2.7.0",
+    "rimraf": "3.0.0",
     "semantic-release": "15.13.21"
   },
   "config": {
