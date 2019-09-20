@@ -1469,10 +1469,10 @@ babel-plugin-syntax-dynamic-import@^6.18.0:
   resolved "https://registry.yarnpkg.com/babel-plugin-syntax-dynamic-import/-/babel-plugin-syntax-dynamic-import-6.18.0.tgz#8d6a26229c83745a9982a441051572caa179b1da"
   integrity sha1-jWomIpyDdFqZgqRBBRVyyqF5sdo=
 
-babel-preset-gatsby-package@0.2.4:
-  version "0.2.4"
-  resolved "https://registry.yarnpkg.com/babel-preset-gatsby-package/-/babel-preset-gatsby-package-0.2.4.tgz#097669848ae6096fa1f539d2d16e697c50d22815"
-  integrity sha512-nX2T/0kKMPK1fXF1XocyKlBZ62OQe8LnyctqQ6KcsxKBUrna40yoU0t5krSLA1Y34Rshm2+7L2YdVbBktnOYrg==
+babel-preset-gatsby-package@0.2.5:
+  version "0.2.5"
+  resolved "https://registry.yarnpkg.com/babel-preset-gatsby-package/-/babel-preset-gatsby-package-0.2.5.tgz#13d7707627884ad8d24837430558b574bd745642"
+  integrity sha512-J6krsPBHptzh1jEPMzX7ytsCdDNbJTlici3VCAOivaoTFMnS4MdlmKOm6UvH8Xy9zEbj1FWjWBb9OcbfhjQUXA==
   dependencies:
     "@babel/plugin-proposal-class-properties" "^7.5.5"
     "@babel/plugin-proposal-optional-chaining" "^7.6.0"
@@ -1482,6 +1482,7 @@ babel-preset-gatsby-package@0.2.4:
     "@babel/preset-flow" "^7.0.0"
     "@babel/preset-react" "^7.0.0"
     babel-plugin-dynamic-import-node "^1.2.0"
+    core-js "^2.6.9"
 
 babel-runtime@^6.23.0:
   version "6.26.0"
@@ -2233,7 +2234,7 @@ core-js-pure@3.1.4:
   resolved "https://registry.yarnpkg.com/core-js-pure/-/core-js-pure-3.1.4.tgz#5fa17dc77002a169a3566cc48dc774d2e13e3769"
   integrity sha512-uJ4Z7iPNwiu1foygbcZYJsJs1jiXrTTCvxfLDXNhI/I+NHbSIEyr548y4fcsCEyWY0XgfAG/qqaunJ1SThHenA==
 
-core-js@^2.4.0:
+core-js@^2.4.0, core-js@^2.6.9:
   version "2.6.9"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.9.tgz#6b4b214620c834152e179323727fc19741b084f2"
   integrity sha512-HOpZf6eXmnl7la+cUdMnLvUxKNqLUzJvgIziQ0DiF3JwSImNphIqdGqzj6hIKyX04MmV0poclQ7+wjWvxQyR2A==
