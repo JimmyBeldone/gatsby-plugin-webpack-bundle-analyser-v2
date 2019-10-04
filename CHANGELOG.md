@@ -1,3 +1,10 @@
+## [1.1.6](https://github.com/JimmyBeldone/gatsby-plugin-webpack-bundle-analyser-v2/compare/v1.1.5...v1.1.6) (2019-10-04)
+
+
+### Bug Fixes
+
+* .snyk & package.json to reduce vulnerabilities ([13d58fa](https://github.com/JimmyBeldone/gatsby-plugin-webpack-bundle-analyser-v2/commit/13d58fa))
+
 ## [1.1.5](https://github.com/JimmyBeldone/gatsby-plugin-webpack-bundle-analyser-v2/compare/v1.1.4...v1.1.5) (2019-07-25)
 
 
