@@ -20,9 +20,7 @@
     "build": "babel src --out-dir .",
     "prepare": "yarn clean && cross-env NODE_ENV=production yarn build",
     "watch": "babel -w src --out-dir .",
-    "semantic-release": "semantic-release",
-    "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "semantic-release": "semantic-release"
   },
   "author": "Jimmy Beldone <dev.jimmy.beldone@gmail.com>",
   "bugs": {
@@ -40,8 +38,7 @@
     "url": "https://github.com/JimmyBeldone/gatsby-plugin-webpack-bundle-analyser-v2.git"
   },
   "dependencies": {
-    "@babel/runtime": "^7.6.2",
-    "snyk": "^1.230.5",
+    "@babel/runtime": "^7.5.5",
     "webpack-bundle-analyzer": "^3.5.2"
   },
   "devDependencies": {
@@ -81,6 +78,5 @@
       "prettier --write",
       "git add"
     ]
-  },
-  "snyk": true
+  }
 }
