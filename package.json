@@ -42,7 +42,7 @@
   "dependencies": {
     "@babel/runtime": "^7.6.2",
     "snyk": "^1.230.5",
-    "webpack-bundle-analyzer": "^3.3.2"
+    "webpack-bundle-analyzer": "^3.5.2"
   },
   "devDependencies": {
     "@babel/cli": "7.6.2",
