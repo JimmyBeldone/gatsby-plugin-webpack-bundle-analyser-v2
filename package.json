@@ -41,7 +41,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.5.5",
-    "snyk": "^1.199.2",
+    "snyk": "^1.230.5",
     "webpack-bundle-analyzer": "^3.3.2"
   },
   "devDependencies": {
