@@ -44,8 +44,8 @@
   "devDependencies": {
     "@babel/cli": "7.6.4",
     "@babel/core": "7.6.4",
-    "@semantic-release/changelog": "3.0.4",
-    "@semantic-release/git": "7.0.16",
+    "@semantic-release/changelog": "3.0.5",
+    "@semantic-release/git": "7.0.17",
     "babel-eslint": "10.0.3",
     "babel-preset-gatsby-package": "0.2.9",
     "commitizen": "4.0.3",
@@ -60,7 +60,7 @@
     "lint-staged": "9.4.2",
     "prettier": "1.18.2",
     "rimraf": "3.0.0",
-    "semantic-release": "15.13.27"
+    "semantic-release": "15.13.28"
   },
   "config": {
     "commitizen": {
