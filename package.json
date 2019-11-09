@@ -39,7 +39,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.7.2",
-    "webpack-bundle-analyzer": "^3.5.2"
+    "webpack-bundle-analyzer": "^3.6.0"
   },
   "devDependencies": {
     "@babel/cli": "7.7.0",
