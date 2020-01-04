@@ -42,8 +42,8 @@
     "webpack-bundle-analyzer": "^3.6.0"
   },
   "devDependencies": {
-    "@babel/cli": "7.7.5",
-    "@babel/core": "7.7.5",
+    "@babel/cli": "7.7.7",
+    "@babel/core": "7.7.7",
     "@semantic-release/changelog": "3.0.6",
     "@semantic-release/git": "7.0.18",
     "babel-eslint": "10.0.3",
