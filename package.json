@@ -45,7 +45,7 @@
     "@babel/cli": "7.7.7",
     "@babel/core": "7.7.7",
     "@semantic-release/changelog": "3.0.6",
-    "@semantic-release/git": "7.0.18",
+    "@semantic-release/git": "8.0.0",
     "babel-eslint": "10.0.3",
     "babel-preset-gatsby-package": "0.2.15",
     "commitizen": "4.0.3",
@@ -60,7 +60,7 @@
     "lint-staged": "9.5.0",
     "prettier": "1.19.1",
     "rimraf": "3.0.0",
-    "semantic-release": "15.14.0"
+    "semantic-release": "16.0.0"
   },
   "config": {
     "commitizen": {
