@@ -47,7 +47,7 @@
     "@semantic-release/changelog": "5.0.0",
     "@semantic-release/git": "9.0.0",
     "babel-eslint": "10.1.0",
-    "babel-preset-gatsby-package": "0.3.0",
+    "babel-preset-gatsby-package": "0.3.1",
     "commitizen": "4.0.3",
     "cross-env": "7.0.2",
     "cz-conventional-changelog": "3.1.0",
@@ -58,7 +58,7 @@
     "eslint-plugin-prettier": "3.1.2",
     "husky": "4.2.3",
     "lint-staged": "10.0.9",
-    "prettier": "2.0.1",
+    "prettier": "2.0.2",
     "rimraf": "3.0.2",
     "semantic-release": "17.0.4"
   },
