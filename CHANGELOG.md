@@ -1,3 +1,10 @@
+## [1.1.9](https://github.com/JimmyBeldone/gatsby-plugin-webpack-bundle-analyser-v2/compare/v1.1.8...v1.1.9) (2020-04-28)
+
+
+### Bug Fixes
+
+* update yarn lock ([91ba31e](https://github.com/JimmyBeldone/gatsby-plugin-webpack-bundle-analyser-v2/commit/91ba31e1dd7b66423781308d6a4f3a560f151bce))
+
 ## [1.1.8](https://github.com/JimmyBeldone/gatsby-plugin-webpack-bundle-analyser-v2/compare/v1.1.7...v1.1.8) (2019-11-09)
 
 
