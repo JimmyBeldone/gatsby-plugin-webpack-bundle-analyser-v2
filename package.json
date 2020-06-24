@@ -60,7 +60,7 @@
     "lint-staged": "10.2.11",
     "prettier": "2.0.5",
     "rimraf": "3.0.2",
-    "semantic-release": "17.0.8"
+    "semantic-release": "17.1.0"
   },
   "config": {
     "commitizen": {
