@@ -38,7 +38,7 @@
     "url": "https://github.com/JimmyBeldone/gatsby-plugin-webpack-bundle-analyser-v2.git"
   },
   "dependencies": {
-    "@babel/runtime": "^7.10.1",
+    "@babel/runtime": "^7.11.0",
     "webpack-bundle-analyzer": "^3.8.0"
   },
   "devDependencies": {
