@@ -2,8 +2,11 @@
 <h3 align="center">Gatsby plugin with the latest version of <a href="https://github.com/webpack-contrib/webpack-bundle-analyzer">webpack-bundle-analyser</a> to visualize size of output files with an interactive zoomable treemap.</h3>
 
 <p align="center">
-    <a href="https://travis-ci.com/JimmyBeldone/gatsby-plugin-webpack-bundle-analyser-v2">
-        <img alt="travis build" src="https://travis-ci.com/JimmyBeldone/gatsby-plugin-webpack-bundle-analyser-v2.svg?branch=master">
+    <a href="https://github.com/JimmyBeldone/gatsby-plugin-webpack-bundle-analyser-v2">
+        <img alt="travis build" src="https://github.com/JimmyBeldone/gatsby-plugin-webpack-bundle-analyser-v2/workflows/TESTING/badge.svg">
+    </a>
+    <a href="https://github.com/JimmyBeldone/gatsby-plugin-webpack-bundle-analyser-v2">
+        <img alt="travis build" src="https://github.com/JimmyBeldone/gatsby-plugin-webpack-bundle-analyser-v2/workflows/PUBLISH/badge.svg">
     </a>
     <a href="https://www.npmjs.com/package/gatsby-plugin-webpack-bundle-analyser-v2">
         <img alt="npm version" src="https://badgen.net/npm/v/gatsby-plugin-webpack-bundle-analyser-v2">
