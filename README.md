@@ -60,7 +60,7 @@ module.exports = {
 
 ## Options
 
-This plugin is disable in `dev mode` by default, if you want to use it in `dev mode`,
+This plugin is disabled in `dev mode` by default, if you want to use it in `dev mode`,
 set `devMode: true` like this :
 
 ```javascript
