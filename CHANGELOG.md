@@ -1,3 +1,10 @@
+## [1.1.16](https://github.com/JimmyBeldone/gatsby-plugin-webpack-bundle-analyser-v2/compare/v1.1.15...v1.1.16) (2020-11-13)
+
+
+### Bug Fixes
+
+* change default options for Gatsby Cloud ([c3db3ee](https://github.com/JimmyBeldone/gatsby-plugin-webpack-bundle-analyser-v2/commit/c3db3ee2f54f1e51c7fcf34cec030a19fb5c1370))
+
 ## [1.1.15](https://github.com/JimmyBeldone/gatsby-plugin-webpack-bundle-analyser-v2/compare/v1.1.14...v1.1.15) (2020-11-13)
 
 
