@@ -114,6 +114,10 @@ In this plugin, the default original options are :
 
 which run a server on http://127.0.0.1:3001 with your bundle report.
 
+**Note for [Gatsby Cloud](https://www.gatsbyjs.com/cloud/) users** :
+
+Default options for [Gatsby Cloud](https://www.gatsbyjs.com/cloud/) users change a bit,  `analyzerMode` is set to `static`, and a `report.html` will be generated in `/public` folder.
+
 ## Contributing
 
 Contributions are welcome ! See [contributing guidelines](https://github.com/JimmyBeldone/gatsby-plugin-webpack-bundle-analyser-v2/blob/master/CONTRIBUTING.md)

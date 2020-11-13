@@ -7,14 +7,18 @@ exports.onCreateWebpackConfig = (
     if (disable) return;
 
     if ((stage === 'develop' && devMode) || stage === 'build-javascript') {
-        const defaultOptions = {
-            analyzerMode: 'server',
-            analyzerPort: 3001,
-            ...options,
-        };
+        // Prevent server to keep runing in Gatsby Cloud
+        const defaultOptions = process.env.GATSBY_CLOUD
+            ? { analyzerMode: 'static' }
+            : {
+                  analyzerMode: 'server',
+                  analyzerPort: 3001,
+              };
 
         actions.setWebpackConfig({
-            plugins: [new BundleAnalyzerPlugin(defaultOptions)],
+            plugins: [
+                new BundleAnalyzerPlugin({ ...defaultOptions, ...options }),
+            ],
         });
     }
 };
