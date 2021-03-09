@@ -2705,7 +2705,7 @@ detect-newline@^2.1.0:
   resolved "https://registry.yarnpkg.com/detect-newline/-/detect-newline-2.1.0.tgz#f41f1c10be4b00e87b5f13da680759f2c5bfd3e2"
   integrity sha1-9B8cEL5LAOh7XxPaaAdZ8sW/0+I=
 
-devmoji@^2.2.0:
+devmoji@2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/devmoji/-/devmoji-2.2.0.tgz#3b747ba2b79cb1a8ebbcde13a5dc65e3a25d319b"
   integrity sha512-8I+/VAM3Bpu0jTgOQ0co1+FCtoRdRPLwzY/Kt6w5Ns/UKo4H4mPB5YZ5zn1WJhquzYQcc9WL9E3W8F9N58KZ/w==
