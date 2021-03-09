@@ -2261,6 +2261,11 @@ combined-stream@^1.0.6, combined-stream@~1.0.6:
   dependencies:
     delayed-stream "~1.0.0"
 
+commander@7.1.0:
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-7.1.0.tgz#f2eaecf131f10e36e07d894698226e36ae0eb5ff"
+  integrity sha512-pRxBna3MJe6HKnBGsDyMv8ETbptw3axEdYHoqNh7gu5oDcew8fs0xnivZGm06Ogk8zGAJ9VX+OPEr2GXEQK4dg==
+
 commander@^4.0.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/commander/-/commander-4.1.1.tgz#9fd602bd936294e9e9ef46a3f4d6964044b18068"
@@ -2699,6 +2704,15 @@ detect-newline@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/detect-newline/-/detect-newline-2.1.0.tgz#f41f1c10be4b00e87b5f13da680759f2c5bfd3e2"
   integrity sha1-9B8cEL5LAOh7XxPaaAdZ8sW/0+I=
+
+devmoji@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/devmoji/-/devmoji-2.2.0.tgz#3b747ba2b79cb1a8ebbcde13a5dc65e3a25d319b"
+  integrity sha512-8I+/VAM3Bpu0jTgOQ0co1+FCtoRdRPLwzY/Kt6w5Ns/UKo4H4mPB5YZ5zn1WJhquzYQcc9WL9E3W8F9N58KZ/w==
+  dependencies:
+    chalk "^4.1.0"
+    commander "7.1.0"
+    ts-interface-checker "0.2.0"
 
 dezalgo@^1.0.0, dezalgo@~1.0.3:
   version "1.0.3"
@@ -7369,6 +7383,11 @@ trim-off-newlines@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/trim-off-newlines/-/trim-off-newlines-1.0.1.tgz#9f9ba9d9efa8764c387698bcbfeb2c848f11adb3"
   integrity sha1-n5up2e+odkw4dpi8v+sshI8RrbM=
+
+ts-interface-checker@0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/ts-interface-checker/-/ts-interface-checker-0.2.0.tgz#4a87c0daac4eceaece401b37c86fa98486caf699"
+  integrity sha512-wkqy1TC9FxALfAl10ov0joZK5aXjIhnOYBe26XSPiRD0UemFuQOF7D/LowiCFu5gbjYJc+ao0H+I50YYU9oKVA==
 
 tsconfig-paths@^3.9.0:
   version "3.9.0"
