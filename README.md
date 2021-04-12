@@ -58,6 +58,8 @@ module.exports = {
 }
 ```
 
+Then run a build as normal and the plugin will automatically open a browser window with the bundle analysis.
+
 ## Options
 
 This plugin is disabled in `dev mode` by default, if you want to use it in `dev mode`,
