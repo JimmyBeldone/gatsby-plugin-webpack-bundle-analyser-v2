@@ -1,3 +1,10 @@
+## [1.1.25](https://github.com/JimmyBeldone/gatsby-plugin-webpack-bundle-analyser-v2/compare/v1.1.24...v1.1.25) (2021-09-01)
+
+
+### Bug Fixes
+
+* update dev dependencies ([4f6bf44](https://github.com/JimmyBeldone/gatsby-plugin-webpack-bundle-analyser-v2/commit/4f6bf449cfd0a59776f81109cbef707a73c3ef59))
+
 ## [1.1.24](https://github.com/JimmyBeldone/gatsby-plugin-webpack-bundle-analyser-v2/compare/v1.1.23...v1.1.24) (2021-06-23)
 
 
