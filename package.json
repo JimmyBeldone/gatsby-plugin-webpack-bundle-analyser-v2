@@ -45,7 +45,7 @@
     "@babel/cli": "7.14.8",
     "@babel/core": "7.15.0",
     "@semantic-release/changelog": "5.0.1",
-    "@semantic-release/git": "9.0.0",
+    "@semantic-release/git": "9.0.1",
     "babel-eslint": "10.1.0",
     "babel-preset-gatsby-package": "1.13.0",
     "commitizen": "4.2.4",
