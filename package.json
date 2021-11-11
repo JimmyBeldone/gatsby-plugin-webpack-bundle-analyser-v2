@@ -30,7 +30,7 @@
   "license": "MIT",
   "main": "./index.js",
   "peerDependencies": {
-    "gatsby": "^2.0.0 || ^3.0.0"
+    "gatsby": "^2.0.0 || ^3.0.0 || ^4.0.0"
   },
   "homepage": "https://github.com/JimmyBeldone/gatsby-plugin-webpack-bundle-analyser-v2",
   "repository": {
@@ -38,30 +38,30 @@
     "url": "https://github.com/JimmyBeldone/gatsby-plugin-webpack-bundle-analyser-v2.git"
   },
   "dependencies": {
-    "@babel/runtime": "^7.15.3",
-    "webpack-bundle-analyzer": "^4.4.2"
+    "@babel/runtime": "^7.16.3",
+    "webpack-bundle-analyzer": "^4.5.0"
   },
   "devDependencies": {
-    "@babel/cli": "7.14.8",
-    "@babel/core": "7.15.0",
-    "@semantic-release/changelog": "5.0.1",
-    "@semantic-release/git": "9.0.0",
+    "@babel/cli": "7.16.0",
+    "@babel/core": "7.16.0",
+    "@semantic-release/changelog": "6.0.1",
+    "@semantic-release/git": "10.0.1",
     "babel-eslint": "10.1.0",
-    "babel-preset-gatsby-package": "1.13.0",
+    "babel-preset-gatsby-package": "2.1.0",
     "commitizen": "4.2.4",
     "cross-env": "7.0.3",
     "cz-conventional-changelog": "3.3.0",
     "devmoji": "2.3.0",
-    "eslint": "7.32.0",
-    "eslint-config-airbnb-base": "14.2.1",
+    "eslint": "8.2.0",
+    "eslint-config-airbnb-base": "15.0.0",
     "eslint-config-prettier": "8.3.0",
-    "eslint-plugin-import": "2.24.2",
+    "eslint-plugin-import": "2.25.3",
     "eslint-plugin-prettier": "4.0.0",
     "husky": "4.3.8",
     "lint-staged": "10.5.4",
-    "prettier": "2.3.2",
+    "prettier": "2.4.1",
     "rimraf": "3.0.2",
-    "semantic-release": "17.4.7"
+    "semantic-release": "18.0.0"
   },
   "config": {
     "commitizen": {
