@@ -1,7 +1,7 @@
 {
   "name": "gatsby-plugin-webpack-bundle-analyser-v2",
   "description": "Gatsby plugin with the latest version of [webpack-bundle-analyser](https://github.com/webpack-contrib/webpack-bundle-analyzer) to visualize size of output files with an interactive zoomable treemap.",
-  "version": "1.1.27",
+  "version": "1.1.28",
   "keywords": [
     "gatsby",
     "gatsby-plugin",
@@ -57,7 +57,7 @@
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-import": "2.26.0",
     "eslint-plugin-prettier": "4.2.1",
-    "husky": "^8.0.1",
+    "husky": "8.0.1",
     "lint-staged": "13.0.3",
     "prettier": "2.7.1",
     "rimraf": "3.0.2",

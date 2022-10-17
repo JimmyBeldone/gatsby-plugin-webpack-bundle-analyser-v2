@@ -62,8 +62,8 @@ Then run a build as normal and the plugin will automatically open a browser wind
 
 ## Options
 
-This plugin is disabled in `dev mode` by default, if you want to use it in `dev mode`,
-set `devMode: true` like this :
+This plugin is disabled in development environment (when `process.env.NODE_ENV` is `development`) by default.\
+If you want to use it in development environment, set `devMode: true` like this:
 
 ```javascript
 // in gatsby-config.js
