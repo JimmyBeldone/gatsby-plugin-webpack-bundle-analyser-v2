@@ -107,6 +107,7 @@ module.exports = {
 
 In this plugin, the default original options are :
 
+
 ```javascript
 {
   analyzerMode: 'server',
