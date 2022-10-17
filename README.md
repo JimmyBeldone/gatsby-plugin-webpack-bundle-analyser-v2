@@ -36,6 +36,7 @@
     </a>
 </p>
 
+
 ## Install
 
 `npm i gatsby-plugin-webpack-bundle-analyser-v2 -D`
