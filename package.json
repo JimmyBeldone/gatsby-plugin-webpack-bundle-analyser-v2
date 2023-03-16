@@ -48,7 +48,7 @@
     "@semantic-release/git": "10.0.1",
     "babel-eslint": "10.1.0",
     "babel-preset-gatsby-package": "2.24.0",
-    "commitizen": "4.2.5",
+    "commitizen": "4.3.0",
     "cross-env": "7.0.3",
     "cz-conventional-changelog": "3.3.0",
     "devmoji": "2.3.0",
