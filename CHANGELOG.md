@@ -1,3 +1,11 @@
+## [1.1.31](https://github.com/JimmyBeldone/gatsby-plugin-webpack-bundle-analyser-v2/compare/v1.1.30...v1.1.31) (2023-05-03)
+
+
+### Bug Fixes
+
+* 🐛 gatsby v5 peerDependency ([ba7be77](https://github.com/JimmyBeldone/gatsby-plugin-webpack-bundle-analyser-v2/commit/ba7be77b03533ddabc9cf27921ae37eab1c3259d))
+* 🐛 upgrade webpack-bundle-analyzer to [@4](https://github.com/4).8.0 ([acb6046](https://github.com/JimmyBeldone/gatsby-plugin-webpack-bundle-analyser-v2/commit/acb604613b2db893bed2973e926462d1bd0dc442))
+
 ## [1.1.30](https://github.com/JimmyBeldone/gatsby-plugin-webpack-bundle-analyser-v2/compare/v1.1.29...v1.1.30) (2022-10-17)
 
 
