@@ -54,7 +54,7 @@
     "devmoji": "2.3.0",
     "eslint": "8.25.0",
     "eslint-config-airbnb-base": "15.0.0",
-    "eslint-config-prettier": "8.5.0",
+    "eslint-config-prettier": "8.10.0",
     "eslint-plugin-import": "2.26.0",
     "eslint-plugin-prettier": "4.2.1",
     "husky": "8.0.1",
