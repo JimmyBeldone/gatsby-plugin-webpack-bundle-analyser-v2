@@ -42,7 +42,7 @@
     "webpack-bundle-analyzer": "^4.10.1"
   },
   "devDependencies": {
-    "@babel/cli": "7.23.0",
+    "@babel/cli": "7.29.7",
     "@babel/core": "7.23.3",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
